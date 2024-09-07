@@ -86,11 +86,14 @@
           "A"
         )}</small></div>
         </div>
+        <a href="/">All Cities</a>
         `;
       }
       
       updateTime();
       setInterval(updateTime, 100);
+
+      
       
       let citiesSelectElement = document.querySelector("#city");
       citiesSelectElement.addEventListener("change", updateCity);
